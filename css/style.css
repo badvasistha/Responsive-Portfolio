@@ -1,0 +1,117 @@
+/* .container {
+    width: 960px;
+    border: 1px solid black;
+    background-color: #fff; */
+}
+body {
+    background-color: grey;
+    margin-top: 5px;
+}
+.footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 3px solid teal;
+    background-color: grey;
+    height: 50px;
+    width: 100%;
+    margin-left: -18px;
+    margin-top: -50px;
+}
+.name {
+    margin-left: -18px;
+    padding-top: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+}
+.menu {
+    margin-bottom: 0px;
+}
+header {
+    text-align: left;
+}
+.bottom-container {
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    width: 960px;
+}
+.content {
+margin-left: 10px;
+ margin-top: 20px;
+margin-bottom: 100px;
+padding: 5px;
+ border: 1px solid grey;
+}
+.sub-content {
+    border: 1px solid white;
+    padding: 20px;
+    width: 960px;
+}
+.header-line {
+    border-bottom: 2px solid grey;
+}
+.top-container {
+    width: 960px;
+}
+.image-content {
+    border: 1px solid white;
+    padding: 20px;
+    width: 600px;
+    /* margin-left: 15px; */
+}
+.contact-content {
+    margin-left: -20px;
+    margin-top: 20px;
+   margin-bottom: 100px;
+   padding: 5px;
+    border: 1px solid grey;
+    width: 960px;
+}
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    body {
+      background-color: #ccc;
+    }
+.container {
+    width: 100%;
+    padding: 20px;
+    color: green;
+  }
+.sub-content {
+    padding-inline: 30px; 
+    background-color: gray; 
+}
+}
+@media screen and (max-width: 760px) {
+    body {
+      background-color: lightslategray;
+    }
+.container {
+    /* Box-model */
+    color: brown;
+  }
+.sub-content {
+    padding-inline: 30px; 
+    background-color: saddlebrown;
+}
+}
+@media screen and (max-width: 460px) {
+    body {
+      background-color: rgb(124, 168, 212);
+    }
+.container {
+    /* Box-model */
+    width: 100%;
+    padding: 10px;
+    color: rgb(25, 20, 49);
+  }
+.sub-content {
+    padding-inline: 30px; 
+    background-color: rgb(141, 151, 142);
+}
+}
